@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_discord_bot.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bard_discord_bot.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_downloader.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bard_downloader.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\startup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:startup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_playlist_controller.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bard_playlist_controller.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_config_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bard_config_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bard_playlist_controller.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_playlist_controller.py",
+              "RelativeDocumentMoniker": "bard_playlist_controller.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_playlist_controller.py",
+              "RelativeToolTip": "bard_playlist_controller.py",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwKwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T09:07:17.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bard_discord_bot.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_discord_bot.py",
+              "RelativeDocumentMoniker": "bard_discord_bot.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_discord_bot.py",
+              "RelativeToolTip": "bard_discord_bot.py",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T08:15:40.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bard_config_loader.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_config_loader.py",
+              "RelativeDocumentMoniker": "bard_config_loader.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_config_loader.py",
+              "RelativeToolTip": "bard_config_loader.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T08:15:39.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "startup.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\startup.py",
+              "RelativeDocumentMoniker": "startup.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\startup.py",
+              "RelativeToolTip": "startup.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T08:14:37.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bard_downloader.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_downloader.py",
+              "RelativeDocumentMoniker": "bard_downloader.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\bard_downloader.py",
+              "RelativeToolTip": "bard_downloader.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T09:12:00.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "program.py",
+              "DocumentMoniker": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\program.py",
+              "RelativeDocumentMoniker": "program.py",
+              "ToolTip": "C:\\Users\\F000NK\\source\\repos\\MagicBard\\program.py",
+              "RelativeToolTip": "program.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-11-17T08:14:35.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

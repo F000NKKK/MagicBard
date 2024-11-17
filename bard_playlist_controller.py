@@ -6,6 +6,8 @@ import random
 
 class PlaylistController:
     def __init__(self, playlist_dir, settings_file="appsettings.playlistController.json", json_file="playlist.json"):
+        if not os.path.isdir(playlist_dir):
+            raise ValueError(f"Директория для плейлиста '{playlist_dir}' не существует.")
         self.playlist_dir = playlist_dir
         self.settings_file = settings_file
         self.json_file = json_file
@@ -16,22 +18,28 @@ class PlaylistController:
         self.playlist = self.load_playlist()
 
     def _get_track_time(self, track_path):
+        if not os.path.isfile(track_path):
+            raise ValueError(f"Файл '{track_path}' не существует.")
         # Пример получения времени трека (по длине файла в секундах или с использованием библиотеки для аудио)
         return str(datetime.fromtimestamp(os.path.getmtime(track_path)))
 
     def _generate_unique_id(self, track_path):
+        if not os.path.isfile(track_path):
+            raise ValueError(f"Файл '{track_path}' не существует.")
         # Генерация 12-значного ID на основе хэша пути файла
         hash_object = hashlib.sha1(track_path.encode())  # Используем SHA-1 для генерации хэша
         return hash_object.hexdigest()[:12]  # Обрезаем хэш до 12 символов
 
     def load_settings(self):
         # Загружаем настройки из файла
+        if not os.path.exists(self.settings_file):
+            return {"shuffle": False, "repeat": 1}  # Возвращаем значения по умолчанию, если файл не найден
         try:
-            if os.path.exists(self.settings_file):
-                with open(self.settings_file, 'r') as f:
-                    return json.load(f)
-            else:
-                return {"shuffle": False, "repeat": 1}
+            with open(self.settings_file, 'r') as f:
+                settings = json.load(f)
+                if not isinstance(settings, dict):
+                    raise ValueError("Неверный формат настроек.")
+                return settings
         except Exception as e:
             print(f"Ошибка при загрузке настроек: {e}")
             return {"shuffle": False, "repeat": 1}
@@ -47,25 +55,27 @@ class PlaylistController:
 
     def load_playlist(self):
         # Загружаем плейлист из файла
+        if not os.path.exists(self.json_file):
+            return []  # Возвращаем пустой список, если файл не найден
         try:
-            if os.path.exists(self.json_file):
-                with open(self.json_file, 'r') as f:
-                    return json.load(f)
-            else:
-                return []
+            with open(self.json_file, 'r') as f:
+                playlist = json.load(f)
+                if not isinstance(playlist, list):
+                    raise ValueError("Неверный формат плейлиста.")
+                return playlist
         except Exception as e:
             print(f"Ошибка при загрузке плейлиста: {e}")
             return []
 
     def get_playlist_files(self):
         # Получение списка файлов для плейлиста с нужными полями
+        tracks = []
         try:
-            tracks = []
             for f in os.listdir(self.playlist_dir):
-                if f.endswith(".mp3") or f.endswith(".mp4") or f.endswith(".webm") or f.endswith(".flac"):
+                if f.endswith((".mp3", ".mp4", ".webm", ".flac")):
                     track_path = os.path.join(self.playlist_dir, f)
                     track_id = self._generate_unique_id(track_path)  # Генерация уникального 12-значного ID
-                    title = os.path.splitext(f)[0][:40]  # Отрезаем название файла до 20 символов
+                    title = os.path.splitext(f)[0][:40]  # Отрезаем название файла до 40 символов
                     time = self._get_track_time(track_path)
                     tracks.append({
                         "id": track_id,
@@ -73,10 +83,9 @@ class PlaylistController:
                         "time": time,
                         "path": os.path.relpath(track_path, self.playlist_dir)
                     })
-            return tracks
         except Exception as e:
             print(f"Ошибка при получении файлов плейлиста: {e}")
-            return []
+        return tracks
 
     def get_track(self):
         # Возвращает следующий трек в зависимости от настроек repeat и shuffle
@@ -99,22 +108,25 @@ class PlaylistController:
             self.current_track_index = (self.current_track_index + 1) % len(self.playlist)  # Переходим к следующему треку
             return track
         else:
+            print("Некорректный режим повторения.")
             return None
-        playlist_controller.save_playlist(playlist_controller.get_playlist_files())
-        self.playlist = self.load_playlist()  # Перезагружаем плейлист после добавления
 
     def add_to_playlist(self, track_path):
         try:
-            if os.path.exists(track_path):
-                destination = os.path.join(self.playlist_dir, os.path.basename(track_path))
-                os.rename(track_path, destination)
-                print(f"Трек {track_path} добавлен в плейлист.")
-                playlist_controller.save_playlist(playlist_controller.get_playlist_files())
-                self.playlist = self.load_playlist()  # Перезагружаем плейлист после добавления
-                return True
-            else:
+            if not os.path.exists(track_path):
                 print(f"Трек {track_path} не найден.")
                 return False
+            if not os.path.isfile(track_path):
+                raise ValueError(f"Путь {track_path} не является файлом.")
+            destination = os.path.join(self.playlist_dir, os.path.basename(track_path))
+            if os.path.exists(destination):
+                print(f"Трек {track_path} уже есть в плейлисте.")
+                return False
+            os.rename(track_path, destination)
+            print(f"Трек {track_path} добавлен в плейлист.")
+            self.save_playlist(self.get_playlist_files())
+            self.playlist = self.load_playlist()  # Перезагружаем плейлист после добавления
+            return True
         except Exception as e:
             print(f"Ошибка при добавлении трека в плейлист: {e}")
             return False
@@ -146,6 +158,8 @@ class PlaylistController:
 
     def save_playlist(self, tracks):
         try:
+            if not isinstance(tracks, list):
+                raise ValueError("Неверный формат плейлиста.")
             with open(self.json_file, 'w') as f:
                 json.dump(tracks, f, indent=4)
             print("Плейлист сохранен.")
@@ -161,32 +175,20 @@ class PlaylistController:
         self.save_settings()
 
     def set_repeat(self, repeat_mode):
-        if repeat_mode in [1, 2, 3]:
-            self.settings["repeat"] = repeat_mode
-            self.save_settings()
-        else:
+        if repeat_mode not in [1, 2, 3]:
             print("Неверный режим repeat.")
+            return
+        self.settings["repeat"] = repeat_mode
+        self.save_settings()
 
 
-# Пример использования
-#playlist_controller = PlaylistController("./playlist")
-#
-# Обновляем плейлист
-#playlist_controller.save_playlist(playlist_controller.get_playlist_files())
-#
-# Включить shuffle
-#playlist_controller.enable_shuffle()
-#
-# Установить repeat mode на "Повторить один"
-#playlist_controller.set_repeat(2)
-#
-# Получить следующий трек для воспроизведения
-#next_track = playlist_controller.get_track()
-#if next_track:
-#    print(f"Теперь играет: {next_track['title']}")
-#
-# Добавить трек в плейлист
-#playlist_controller.add_to_playlist("path/to/track.mp3")
-#
-# Удалить трек по ID
-#playlist_controller.remove_from_playlist(track_id="f4f1c8ee70e8")
+# Пример использования:
+# playlist_controller = PlaylistController("./playlist")
+# playlist_controller.save_playlist(playlist_controller.get_playlist_files())
+# playlist_controller.enable_shuffle()
+# playlist_controller.set_repeat(2)
+# next_track = playlist_controller.get_track()
+# if next_track:
+#     print(f"Теперь играет: {next_track['title']}")
+# playlist_controller.add_to_playlist("path/to/track.mp3")
+# playlist_controller.remove_from_playlist(track_id="f4f1c8ee70e8")
