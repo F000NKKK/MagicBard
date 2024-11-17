@@ -3,14 +3,25 @@ import os
 
 class Downloader:
     def __init__(self, yt_dlp_path, download_path):
+        # Проверка наличия пути к yt-dlp
+        if not os.path.isfile(yt_dlp_path):
+            raise ValueError(f"Указанный путь к yt-dlp не существует: {yt_dlp_path}")
         self.yt_dlp_path = yt_dlp_path
+
+        # Проверка корректности пути для скачивания
+        if not os.path.isdir(download_path):
+            raise ValueError(f"Указанный путь для скачивания не существует: {download_path}")
         self.download_path = download_path
         
-        # Проверка существования пути для скачивания
+        # Проверка существования пути для скачивания, если нет - создаем
         if not os.path.exists(self.download_path):
             os.makedirs(self.download_path)
 
     async def download_track(self, url):
+        if not url:
+            print("Ошибка: URL не указан.")
+            return None
+
         try:
             # Запуск команды с помощью asyncio
             process = await asyncio.create_subprocess_exec(
