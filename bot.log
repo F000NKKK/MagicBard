@@ -1,0 +1,883 @@
+[2024-11-19 01:25:48,374] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:25:48,374] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:25:48,375] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:25:48,375] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:25:48,375] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:25:48,376] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:25:48,376] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:25:48,379] [INFO] - Плейлист сохранен.
+[2024-11-19 01:25:48,383] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:25:48,383] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:25:48,383] [INFO] - Запуск приложения.
+[2024-11-19 01:25:48,385] [INFO] - logging in using static token
+[2024-11-19 01:25:49,772] [INFO] - Shard ID None has connected to Gateway (Session ID: 034f29556b7c4093903da411ec421814).
+[2024-11-19 01:25:51,786] [INFO] - Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:25:52,181] [INFO] - Slash commands synchronized successfully.
+[2024-11-19 01:25:56,119] [INFO] - Connecting to voice...
+[2024-11-19 01:25:56,120] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:25:56,438] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:25:56,733] [INFO] - Voice connection complete.
+[2024-11-19 01:25:56,733] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:25:56,733] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:25:56,734] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:25:56,741] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:26:02,077] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:26:02,084] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:26:02,085] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:26:02,085] [INFO] - ffmpeg process 11092 has not terminated. Waiting to terminate...
+[2024-11-19 01:26:02,087] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:26:02,089] [INFO] - ffmpeg process 11092 should have terminated with a return code of 1.
+[2024-11-19 01:26:02,092] [ERROR] - Error in play_next_track: Already playing audio.
+[2024-11-19 01:26:03,865] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:26:03,865] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:26:03,866] [INFO] - ffmpeg process 1608 has not terminated. Waiting to terminate...
+[2024-11-19 01:26:03,869] [INFO] - ffmpeg process 1608 should have terminated with a return code of 1.
+[2024-11-19 01:26:03,871] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:26:03,873] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:26:03,877] [ERROR] - Error in play_next_track: Already playing audio.
+[2024-11-19 01:26:05,194] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:26:05,200] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:26:05,213] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:26:05,213] [INFO] - ffmpeg process 15464 has not terminated. Waiting to terminate...
+[2024-11-19 01:26:05,213] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:26:05,215] [INFO] - ffmpeg process 15464 should have terminated with a return code of 1.
+[2024-11-19 01:26:05,217] [ERROR] - Error in play_next_track: Already playing audio.
+[2024-11-19 01:26:07,722] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:26:07,727] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:26:07,741] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:26:07,742] [INFO] - ffmpeg process 892 has not terminated. Waiting to terminate...
+[2024-11-19 01:26:07,742] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:26:07,744] [INFO] - ffmpeg process 892 should have terminated with a return code of 1.
+[2024-11-19 01:26:07,746] [ERROR] - Error in play_next_track: Already playing audio.
+[2024-11-19 01:29:10,643] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:29:10,643] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:29:10,644] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:29:10,644] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:29:10,644] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:29:10,645] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:29:10,645] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:29:10,648] [INFO] - Плейлист сохранен.
+[2024-11-19 01:29:10,652] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:29:10,652] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:29:10,652] [INFO] - Запуск приложения.
+[2024-11-19 01:29:10,654] [INFO] - logging in using static token
+[2024-11-19 01:29:12,136] [INFO] - Shard ID None has connected to Gateway (Session ID: e24891e218d07a68bddf86e0e2073f9f).
+[2024-11-19 01:29:12,965] [INFO] - Connecting to voice...
+[2024-11-19 01:29:12,967] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:29:13,293] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:29:13,809] [INFO] - Voice connection complete.
+[2024-11-19 01:29:13,809] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:29:13,810] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:29:13,810] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:13,817] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:14,184] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:29:14,484] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:29:17,667] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:17,672] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:17,678] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:17,678] [INFO] - ffmpeg process 280 has not terminated. Waiting to terminate...
+[2024-11-19 01:29:17,680] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:17,682] [INFO] - ffmpeg process 280 should have terminated with a return code of 1.
+[2024-11-19 01:29:17,685] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:29:18,940] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:18,944] [INFO] - [play_next_track] Now playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:18,953] [INFO] - [play_next_track] Finished playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:18,954] [INFO] - ffmpeg process 12300 has not terminated. Waiting to terminate...
+[2024-11-19 01:29:18,954] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:18,957] [INFO] - ffmpeg process 12300 should have terminated with a return code of 1.
+[2024-11-19 01:29:18,958] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:29:20,220] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:20,224] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:20,226] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:20,227] [INFO] - ffmpeg process 19492 has not terminated. Waiting to terminate...
+[2024-11-19 01:29:20,227] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:20,229] [INFO] - ffmpeg process 19492 should have terminated with a return code of 1.
+[2024-11-19 01:29:20,231] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:29:23,494] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:23,499] [INFO] - [play_next_track] Now playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:23,505] [INFO] - [play_next_track] Finished playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:29:23,505] [INFO] - ffmpeg process 11524 has not terminated. Waiting to terminate...
+[2024-11-19 01:29:23,506] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:23,507] [INFO] - ffmpeg process 11524 should have terminated with a return code of 1.
+[2024-11-19 01:29:23,508] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:29:26,097] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:26,100] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:26,101] [INFO] - ffmpeg process 9368 has not terminated. Waiting to terminate...
+[2024-11-19 01:29:26,102] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:29:26,104] [INFO] - ffmpeg process 9368 should have terminated with a return code of 1.
+[2024-11-19 01:29:26,105] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:29:26,108] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:31:46,945] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:31:46,946] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:31:46,947] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:31:46,947] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:31:46,947] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:31:46,948] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:31:46,948] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:31:46,952] [INFO] - Плейлист сохранен.
+[2024-11-19 01:31:46,956] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:31:46,956] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:31:46,956] [INFO] - Запуск приложения.
+[2024-11-19 01:31:46,958] [INFO] - logging in using static token
+[2024-11-19 01:31:48,350] [INFO] - Shard ID None has connected to Gateway (Session ID: b5934589392f51d5d59aadda8f1c185d).
+[2024-11-19 01:31:50,368] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:31:50,758] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:31:57,061] [INFO] - Connecting to voice...
+[2024-11-19 01:31:57,061] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:31:57,386] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:31:57,668] [INFO] - Voice connection complete.
+[2024-11-19 01:31:57,669] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:31:57,669] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:31:57,669] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:31:57,677] [INFO] - [play_next_track] Now playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:32:01,074] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:32:01,080] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:32:01,081] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:32:12,580] [WARNING] - Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\F000NK\Source\Repos\MagicBard\program.py", line 26, in <module>
+    app.start()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\startup.py", line 81, in start
+    self.discord_bot.run()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 251, in run
+    self.bot.run(self.token)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 869, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 154, in skip
+    await interaction.response.send_message("Skipped to the next track.")
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 864, in send_message
+    if view is not MISSING and not view.is_finished():
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 988, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 165, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2070, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2106, in _do_wait_suspend
+    time.sleep(0.01)
+
+[2024-11-19 01:33:33,567] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:33:33,567] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:33:33,568] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:33:33,568] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:33:33,568] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:33:33,569] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:33:33,569] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:33:33,573] [INFO] - Плейлист сохранен.
+[2024-11-19 01:33:33,576] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:33:33,576] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:33:33,576] [INFO] - Запуск приложения.
+[2024-11-19 01:33:33,578] [INFO] - logging in using static token
+[2024-11-19 01:33:34,937] [INFO] - Shard ID None has connected to Gateway (Session ID: fe67fe3093c385c83e10928d48b4b9a2).
+[2024-11-19 01:33:36,950] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:33:37,237] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:33:41,992] [INFO] - Connecting to voice...
+[2024-11-19 01:33:41,993] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:33:42,310] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:33:42,662] [INFO] - Voice connection complete.
+[2024-11-19 01:33:42,663] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:33:42,663] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:33:42,663] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:33:42,671] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:33:46,165] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:33:46,170] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:33:46,173] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:33:57,587] [WARNING] - Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\F000NK\Source\Repos\MagicBard\program.py", line 26, in <module>
+    app.start()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\startup.py", line 81, in start
+    self.discord_bot.run()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 256, in run
+    self.bot.run(self.token)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 869, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 159, in skip
+    await interaction.response.send_message("Skipped to the next track.")
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 864, in send_message
+    if view is not MISSING and not view.is_finished():
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 988, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 165, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2070, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2106, in _do_wait_suspend
+    time.sleep(0.01)
+
+[2024-11-19 01:34:07,597] [WARNING] - Shard ID None voice heartbeat blocked for more than 20 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\F000NK\Source\Repos\MagicBard\program.py", line 26, in <module>
+    app.start()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\startup.py", line 81, in start
+    self.discord_bot.run()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 256, in run
+    self.bot.run(self.token)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 869, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 159, in skip
+    await interaction.response.send_message("Skipped to the next track.")
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 864, in send_message
+    if view is not MISSING and not view.is_finished():
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 988, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 165, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2070, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2106, in _do_wait_suspend
+    time.sleep(0.01)
+
+[2024-11-19 01:34:17,473] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:34:17,474] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:34:17,474] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:34:17,475] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:34:17,475] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:34:17,475] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:34:17,475] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:34:17,480] [INFO] - Плейлист сохранен.
+[2024-11-19 01:34:17,482] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:34:17,483] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:34:17,483] [INFO] - Запуск приложения.
+[2024-11-19 01:34:17,485] [INFO] - logging in using static token
+[2024-11-19 01:34:18,882] [INFO] - Shard ID None has connected to Gateway (Session ID: b4ffa63f1a939072b45f4656d109af45).
+[2024-11-19 01:34:20,914] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:34:21,302] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:34:23,024] [INFO] - Connecting to voice...
+[2024-11-19 01:34:23,025] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:34:23,326] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:34:23,617] [INFO] - Voice connection complete.
+[2024-11-19 01:34:23,617] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:34:23,618] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:34:23,618] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:34:23,626] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:34:25,920] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:34:25,925] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:34:25,928] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:34:31,017] [ERROR] - Calling the after function failed.
+Traceback (most recent call last):
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\player.py", line 784, in _call_after
+    self.after(error)
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 59, in after_playing
+    loop = asyncio.get_event_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 681, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+RuntimeError: There is no current event loop in thread 'audio-player:0x15d1de52390'.
+[2024-11-19 01:34:31,020] [INFO] - ffmpeg process 12704 has not terminated. Waiting to terminate...
+[2024-11-19 01:34:31,022] [INFO] - ffmpeg process 12704 should have terminated with a return code of 1.
+[2024-11-19 01:34:37,341] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:34:37,346] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:34:37,350] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:34:51,049] [WARNING] - Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\F000NK\Source\Repos\MagicBard\program.py", line 26, in <module>
+    app.start()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\startup.py", line 81, in start
+    self.discord_bot.run()
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 263, in run
+    self.bot.run(self.token)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\client.py", line 869, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 608, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1936, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1151, in wrapper
+    await self._call(interaction)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "C:\Users\F000NK\Source\Repos\MagicBard\bard_discord_bot.py", line 166, in skip
+    await interaction.response.send_message("Skipped to the next track.")
+  File "C:\Users\F000NK\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 864, in send_message
+    if view is not MISSING and not view.is_finished():
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 988, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py", line 165, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2070, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\pydevd.py", line 2106, in _do_wait_suspend
+    time.sleep(0.01)
+
+[2024-11-19 01:35:17,597] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:35:17,597] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:35:17,598] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:35:17,598] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:35:17,598] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:35:17,599] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:35:17,599] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:35:17,603] [INFO] - Плейлист сохранен.
+[2024-11-19 01:35:17,606] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:35:17,606] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:35:17,606] [INFO] - Запуск приложения.
+[2024-11-19 01:35:17,610] [INFO] - logging in using static token
+[2024-11-19 01:35:19,073] [INFO] - Shard ID None has connected to Gateway (Session ID: 2fe777e52c2c4c8b8668bd39c96be49a).
+[2024-11-19 01:35:21,192] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:35:21,609] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:35:25,718] [INFO] - Connecting to voice...
+[2024-11-19 01:35:25,718] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:35:26,031] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:35:26,326] [INFO] - Voice connection complete.
+[2024-11-19 01:35:26,326] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:35:26,326] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:35:26,327] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:26,334] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:29,931] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:29,936] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:29,938] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:29,939] [INFO] - ffmpeg process 9672 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:29,939] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:35:29,941] [INFO] - ffmpeg process 9672 should have terminated with a return code of 1.
+[2024-11-19 01:35:29,943] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:35:34,091] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:35:34,097] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:35:34,098] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:35:34,099] [INFO] - ffmpeg process 14360 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:34,099] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:34,101] [INFO] - ffmpeg process 14360 should have terminated with a return code of 1.
+[2024-11-19 01:35:34,103] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:35:35,883] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:35:35,888] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:35:35,898] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:35:35,898] [INFO] - ffmpeg process 1196 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:35,898] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:35:35,900] [INFO] - ffmpeg process 1196 should have terminated with a return code of 1.
+[2024-11-19 01:35:35,902] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:35:38,277] [INFO] - [play_next_track] Loading next track: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:35:38,281] [INFO] - [play_next_track] Now playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:35:38,290] [INFO] - [play_next_track] Finished playing: Burak Yeter - Tuesday ft. Danelle Sandov
+[2024-11-19 01:35:38,291] [INFO] - ffmpeg process 13752 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:38,291] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:35:38,294] [INFO] - ffmpeg process 13752 should have terminated with a return code of 1.
+[2024-11-19 01:35:38,295] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:35:57,820] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:57,823] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:57,824] [INFO] - ffmpeg process 20312 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:57,825] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:35:57,827] [INFO] - ffmpeg process 20312 should have terminated with a return code of 1.
+[2024-11-19 01:35:57,829] [INFO] - ffmpeg process 6268 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:57,832] [INFO] - ffmpeg process 6268 should have terminated with a return code of 1.
+[2024-11-19 01:35:57,832] [INFO] - ffmpeg process 19620 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:57,835] [INFO] - ffmpeg process 19620 should have terminated with a return code of 1.
+[2024-11-19 01:35:57,835] [INFO] - ffmpeg process 12728 has not terminated. Waiting to terminate...
+[2024-11-19 01:35:57,838] [INFO] - ffmpeg process 12728 should have terminated with a return code of 1.
+[2024-11-19 01:35:57,829] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:35:57,842] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:36:22,374] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:36:22,379] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:36:22,387] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:36:22,388] [INFO] - ffmpeg process 15512 has not terminated. Waiting to terminate...
+[2024-11-19 01:36:22,388] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:36:22,390] [INFO] - ffmpeg process 15512 should have terminated with a return code of 1.
+[2024-11-19 01:36:22,392] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:36:44,887] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:36:44,893] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:36:44,901] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:36:44,901] [INFO] - ffmpeg process 18192 has not terminated. Waiting to terminate...
+[2024-11-19 01:36:44,902] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:36:44,904] [INFO] - ffmpeg process 18192 should have terminated with a return code of 1.
+[2024-11-19 01:36:44,906] [ERROR] - [play_next_track] Error in play_next_track: Already playing audio.
+[2024-11-19 01:40:25,515] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:40:25,515] [INFO] - ffmpeg process 10748 successfully terminated with return code of 0.
+[2024-11-19 01:40:25,516] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:40:25,521] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:41:19,087] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:41:19,088] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:41:19,088] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:41:19,089] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:41:19,089] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:41:19,089] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:41:19,089] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:41:19,093] [INFO] - Плейлист сохранен.
+[2024-11-19 01:41:19,097] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:41:19,097] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:41:19,097] [INFO] - Запуск приложения.
+[2024-11-19 01:41:19,099] [INFO] - logging in using static token
+[2024-11-19 01:41:21,682] [INFO] - Shard ID None has connected to Gateway (Session ID: 5ca58658dc8f8cba837c339aa9b55442).
+[2024-11-19 01:41:23,702] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:41:24,074] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:41:26,414] [INFO] - Connecting to voice...
+[2024-11-19 01:41:26,414] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:41:26,732] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:41:27,186] [INFO] - Voice connection complete.
+[2024-11-19 01:41:27,186] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:41:27,186] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:41:27,187] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:41:27,195] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:41:31,104] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:41:31,118] [INFO] - [play_next_track] Finished playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:41:31,118] [INFO] - ffmpeg process 8532 has not terminated. Waiting to terminate...
+[2024-11-19 01:41:31,119] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:41:31,120] [INFO] - ffmpeg process 8532 should have terminated with a return code of 1.
+[2024-11-19 01:41:31,124] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:41:39,258] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:41:39,265] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:41:39,265] [INFO] - ffmpeg process 14612 has not terminated. Waiting to terminate...
+[2024-11-19 01:41:39,266] [INFO] - [play_next_track] Loading next track: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:41:39,267] [INFO] - ffmpeg process 14612 should have terminated with a return code of 1.
+[2024-11-19 01:41:39,272] [INFO] - [play_next_track] Now playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:41:54,758] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:41:54,773] [INFO] - [play_next_track] Finished playing: Снова обогнал их [OoLIeHducuU]
+[2024-11-19 01:41:54,773] [INFO] - ffmpeg process 8484 has not terminated. Waiting to terminate...
+[2024-11-19 01:41:54,774] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:41:54,776] [INFO] - ffmpeg process 8484 should have terminated with a return code of 1.
+[2024-11-19 01:41:54,780] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:40,084] [INFO] - Настройки сохранены.
+[2024-11-19 01:42:40,085] [INFO] - Перемешивание отключено.
+[2024-11-19 01:42:42,473] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:42:42,480] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:42,480] [INFO] - ffmpeg process 18968 has not terminated. Waiting to terminate...
+[2024-11-19 01:42:42,481] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:42,483] [INFO] - ffmpeg process 18968 should have terminated with a return code of 1.
+[2024-11-19 01:42:42,486] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:44,455] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:42:44,468] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:44,469] [INFO] - ffmpeg process 17264 has not terminated. Waiting to terminate...
+[2024-11-19 01:42:44,469] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:44,471] [INFO] - ffmpeg process 17264 should have terminated with a return code of 1.
+[2024-11-19 01:42:44,474] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:46,283] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:42:46,295] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:46,295] [INFO] - ffmpeg process 7548 has not terminated. Waiting to terminate...
+[2024-11-19 01:42:46,296] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:46,297] [INFO] - ffmpeg process 7548 should have terminated with a return code of 1.
+[2024-11-19 01:42:46,300] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:47,771] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:42:47,781] [INFO] - [play_next_track] Finished playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:47,781] [INFO] - ffmpeg process 17580 has not terminated. Waiting to terminate...
+[2024-11-19 01:42:47,781] [INFO] - [play_next_track] Loading next track: showdown [uHfQeMJa4z8]
+[2024-11-19 01:42:47,783] [INFO] - ffmpeg process 17580 should have terminated with a return code of 1.
+[2024-11-19 01:42:47,786] [INFO] - [play_next_track] Now playing: showdown [uHfQeMJa4z8]
+[2024-11-19 01:43:56,060] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:43:56,061] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:43:56,061] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:43:56,062] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:43:56,062] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:43:56,062] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:43:56,062] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:43:56,066] [INFO] - Плейлист сохранен.
+[2024-11-19 01:43:56,070] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:43:56,070] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:43:56,070] [INFO] - Запуск приложения.
+[2024-11-19 01:43:56,073] [INFO] - logging in using static token
+[2024-11-19 01:43:57,515] [INFO] - Shard ID None has connected to Gateway (Session ID: e62507b5689adab994c6d80cc48c33f5).
+[2024-11-19 01:43:59,528] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:43:59,849] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:44:04,263] [INFO] - Настройки сохранены.
+[2024-11-19 01:44:04,263] [INFO] - Перемешивание отключено.
+[2024-11-19 01:44:06,586] [INFO] - Connecting to voice...
+[2024-11-19 01:44:06,587] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:44:06,888] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:44:07,186] [INFO] - Voice connection complete.
+[2024-11-19 01:44:07,186] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:44:07,187] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:44:07,187] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:07,195] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:12,100] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:44:12,117] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:12,117] [INFO] - ffmpeg process 11016 has not terminated. Waiting to terminate...
+[2024-11-19 01:44:12,117] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:12,119] [INFO] - ffmpeg process 11016 should have terminated with a return code of 1.
+[2024-11-19 01:44:12,123] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:13,875] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:44:13,884] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:13,884] [INFO] - ffmpeg process 20040 has not terminated. Waiting to terminate...
+[2024-11-19 01:44:13,884] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:13,886] [INFO] - ffmpeg process 20040 should have terminated with a return code of 1.
+[2024-11-19 01:44:13,889] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:15,412] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:44:15,430] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:15,430] [INFO] - ffmpeg process 12660 has not terminated. Waiting to terminate...
+[2024-11-19 01:44:15,430] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:44:15,433] [INFO] - ffmpeg process 12660 should have terminated with a return code of 1.
+[2024-11-19 01:44:15,436] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:46:05,987] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:46:05,997] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:46:05,997] [INFO] - ffmpeg process 18344 has not terminated. Waiting to terminate...
+[2024-11-19 01:46:05,997] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:46:05,999] [INFO] - ffmpeg process 18344 should have terminated with a return code of 1.
+[2024-11-19 01:46:06,002] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:48:42,235] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:48:42,236] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:48:42,237] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:48:42,237] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:48:42,237] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:48:42,238] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:48:42,238] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:48:42,240] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:48:42,241] [INFO] - [check_and_update_playlist] Удалены треки: 1.
+[2024-11-19 01:48:42,242] [INFO] - Плейлист сохранен.
+[2024-11-19 01:48:42,245] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:48:42,245] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:48:42,245] [INFO] - Запуск приложения.
+[2024-11-19 01:48:42,248] [INFO] - logging in using static token
+[2024-11-19 01:48:43,796] [INFO] - Shard ID None has connected to Gateway (Session ID: 8a841e81d8043564b8d75481210947ca).
+[2024-11-19 01:48:45,822] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:48:46,120] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:49:11,217] [INFO] - Connecting to voice...
+[2024-11-19 01:49:11,217] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:49:11,566] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:49:11,949] [INFO] - Voice connection complete.
+[2024-11-19 01:49:11,949] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:49:11,950] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:49:11,950] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:49:11,958] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:51:35,879] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:51:35,879] [INFO] - ffmpeg process 6240 successfully terminated with return code of 0.
+[2024-11-19 01:51:35,879] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:51:35,884] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:52:55,067] [INFO] - Рабочий каталог установлен в 'C:\Users\F000NK\Source\Repos\MagicBard'.
+[2024-11-19 01:52:55,068] [INFO] - Инициализация приложения началась.
+[2024-11-19 01:52:55,068] [INFO] - Загрузка конфигурации из файла 'appsettings.json'.
+[2024-11-19 01:52:55,069] [INFO] - Конфигурация загружена успешно.
+[2024-11-19 01:52:55,069] [INFO] - Валидация конфигурации началась.
+[2024-11-19 01:52:55,069] [INFO] - Валидация конфигурации завершена успешно.
+[2024-11-19 01:52:55,069] [INFO] - Инициализация компонентов приложения.
+[2024-11-19 01:52:55,079] [INFO] - Компоненты приложения успешно инициализированы.
+[2024-11-19 01:52:55,080] [INFO] - Приложение успешно инициализировано.
+[2024-11-19 01:52:55,080] [INFO] - Запуск приложения.
+[2024-11-19 01:52:55,082] [INFO] - logging in using static token
+[2024-11-19 01:52:56,081] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:52:56,083] [INFO] - [check_and_update_playlist] Добавлены новые треки: 1.
+[2024-11-19 01:52:56,084] [INFO] - Плейлист сохранен.
+[2024-11-19 01:52:56,405] [INFO] - Shard ID None has connected to Gateway (Session ID: de00c0dc2fe9c0b1f141bf0adc5045ca).
+[2024-11-19 01:52:57,085] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:52:57,087] [INFO] - Плейлист сохранен.
+[2024-11-19 01:52:58,088] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:52:58,090] [INFO] - Плейлист сохранен.
+[2024-11-19 01:52:58,410] [INFO] - [on_ready] Bot MagicBard#3427 has successfully started!
+[2024-11-19 01:52:58,700] [INFO] - [on_ready] Slash commands synchronized successfully.
+[2024-11-19 01:52:59,091] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:52:59,093] [INFO] - Плейлист сохранен.
+[2024-11-19 01:52:59,574] [INFO] - Connecting to voice...
+[2024-11-19 01:52:59,574] [INFO] - Starting voice handshake... (connection attempt 1)
+[2024-11-19 01:52:59,895] [INFO] - Voice handshake complete. Endpoint found: russia5544.discord.media
+[2024-11-19 01:53:00,094] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:00,095] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:00,197] [INFO] - Voice connection complete.
+[2024-11-19 01:53:00,197] [INFO] - [join_to_channel] Bot joined voice channel: Игры
+[2024-11-19 01:53:00,197] [ERROR] - [join_to_channel] Error in join command: This interaction has already been responded to before
+[2024-11-19 01:53:00,198] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:00,205] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:01,096] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:01,100] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:02,101] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:02,103] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:03,103] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:03,106] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:04,107] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:04,109] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:04,130] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:53:04,146] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:04,147] [INFO] - ffmpeg process 16896 has not terminated. Waiting to terminate...
+[2024-11-19 01:53:04,147] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:04,149] [INFO] - ffmpeg process 16896 should have terminated with a return code of 1.
+[2024-11-19 01:53:04,152] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:05,111] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:05,112] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:06,113] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:06,115] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:07,116] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:07,118] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:08,119] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:08,121] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:08,396] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:53:08,413] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:08,414] [INFO] - ffmpeg process 8532 has not terminated. Waiting to terminate...
+[2024-11-19 01:53:08,414] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:08,416] [INFO] - ffmpeg process 8532 should have terminated with a return code of 1.
+[2024-11-19 01:53:08,418] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:09,122] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:09,124] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:10,125] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:10,127] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:10,219] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:53:10,220] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:10,220] [INFO] - ffmpeg process 5544 has not terminated. Waiting to terminate...
+[2024-11-19 01:53:10,221] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:10,223] [INFO] - ffmpeg process 5544 should have terminated with a return code of 1.
+[2024-11-19 01:53:10,226] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:11,128] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:11,129] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:12,131] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:12,132] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:12,722] [INFO] - Настройки сохранены.
+[2024-11-19 01:53:12,722] [INFO] - Перемешивание включено.
+[2024-11-19 01:53:13,133] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:13,136] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:14,136] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:14,138] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:15,139] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:15,141] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:16,134] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:53:16,142] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:16,143] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:16,147] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:16,148] [INFO] - ffmpeg process 21192 has not terminated. Waiting to terminate...
+[2024-11-19 01:53:16,148] [INFO] - [play_next_track] Loading next track: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:16,150] [INFO] - ffmpeg process 21192 should have terminated with a return code of 1.
+[2024-11-19 01:53:16,153] [INFO] - [play_next_track] Now playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:17,144] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:17,146] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:17,728] [INFO] - [play_next_track] Track already playing. Skipping next track.
+[2024-11-19 01:53:17,735] [INFO] - [play_next_track] Finished playing: A.V.G, Goro - Она близко (Official video
+[2024-11-19 01:53:17,735] [INFO] - ffmpeg process 14700 has not terminated. Waiting to terminate...
+[2024-11-19 01:53:17,736] [INFO] - [play_next_track] Loading next track: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:53:17,737] [INFO] - ffmpeg process 14700 should have terminated with a return code of 1.
+[2024-11-19 01:53:17,741] [INFO] - [play_next_track] Now playing: Erfan Tahmasbi - Che Konam ( \u0639\u0631\u0641\u0627\u0646 \u0637\u0647\u0645\u0627\u0633
+[2024-11-19 01:53:18,147] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:18,149] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:19,150] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:19,152] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:20,153] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:20,154] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:21,156] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:21,157] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:22,159] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:22,160] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:23,161] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:23,164] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:24,165] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:24,167] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:25,167] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:25,169] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:26,170] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:26,172] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:27,173] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:27,176] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:28,176] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:28,177] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:29,179] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:29,181] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:30,182] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:30,184] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:31,185] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:31,187] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:32,187] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:32,189] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:33,190] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:33,192] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:34,193] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:34,196] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:35,196] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:35,198] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:36,199] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:36,201] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:37,202] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:37,204] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:38,205] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:38,207] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:39,208] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:39,210] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:40,211] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:40,213] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:41,213] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:41,215] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:42,216] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:42,218] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:43,219] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:43,220] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:44,222] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:44,224] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:45,224] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:45,226] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:46,227] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:46,229] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:47,230] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:47,231] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:48,233] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:48,234] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:49,236] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:49,237] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:50,238] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:50,240] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:51,241] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:51,242] [INFO] - [check_and_update_playlist] Удалены треки: 1.
+[2024-11-19 01:53:51,243] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:52,244] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:52,245] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:53,246] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:53,248] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:54,249] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:54,251] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:55,251] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:55,252] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:56,254] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:56,257] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:57,257] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:57,258] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:58,260] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:58,261] [INFO] - Плейлист сохранен.
+[2024-11-19 01:53:59,262] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:53:59,264] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:00,265] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:00,267] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:01,268] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:01,269] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:02,270] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:02,272] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:03,273] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:03,275] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:04,276] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:04,277] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:05,278] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:05,280] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:06,282] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:06,284] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:07,285] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:07,287] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:08,287] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:08,289] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:09,290] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:09,291] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:10,292] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:10,293] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:11,295] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:11,296] [INFO] - Плейлист сохранен.
+[2024-11-19 01:54:12,297] [INFO] - [check_and_update_playlist] Начало обновления плейлиста...
+[2024-11-19 01:54:12,299] [INFO] - Плейлист сохранен.

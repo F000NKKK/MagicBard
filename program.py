@@ -4,21 +4,25 @@ import logging
 from startup import Application
 
 # Настройка логирования
-log_file = "error.log"
+log_file = "bot.log"
 logging.basicConfig(
     filename=log_file,
-    level=logging.ERROR,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO,
+    format="[%(asctime)s] [%(levelname)s] - %(message)s"
 )
+
+logger = logging.getLogger("MagicBardLogger")
 
 if __name__ == "__main__":
     try:
-        # Устанавливаем рабочий каталог в ту же папку, где находится файл program.py
+        # Устанавливаем рабочий каталог в папку, где находится файл
         program_path = os.path.dirname(os.path.abspath(__file__))
         os.chdir(program_path)
 
+        logging.info("Рабочий каталог установлен в '%s'.", program_path)
+
         # Инициализируем и запускаем приложение
-        app = Application()
+        app = Application(logger)
         app.start()
 
     except Exception as e:
