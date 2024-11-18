@@ -2,25 +2,10 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/appsettings.json
-/.vs/MagicBard/FileContentIndex/007b6a17-2ec2-4145-9298-6f4c1bf9a679.vsidx
-/.vs/MagicBard/FileContentIndex/1001adc1-2c43-40c9-bb6f-2884f5215016.vsidx
-/.vs/MagicBard/FileContentIndex/2875b5a8-7472-4684-9223-a043e67adee4.vsidx
-/.vs/MagicBard/FileContentIndex/32ee0b83-a072-4e95-b991-4d42d8f03bf6.vsidx
-/.vs/MagicBard/FileContentIndex/b77eaca3-4151-422a-8844-c655175ca9bd.vsidx
-/.vs/MagicBard/FileContentIndex/d57a6ae6-0453-4d3f-bcc4-c7258aa6f131.vsidx
-/.vs/MagicBard/FileContentIndex/af3f4a3b-2e2d-46d2-bf82-84b801039c58.vsidx
-/.vs/MagicBard/FileContentIndex/016696f3-87c1-4775-8edb-c4e520883479.vsidx
-/.vs/MagicBard/FileContentIndex/eeb4a1e0-29d2-4cbd-878d-66fd3e64220f.vsidx
-/.vs/MagicBard/FileContentIndex/64bfceeb-5dea-4ffc-bf86-8e9c77e09f7e.vsidx
-/.vs/MagicBard/FileContentIndex/5a8487fe-5025-4f23-9e83-44685fda78d8.vsidx
-/.vs/MagicBard/FileContentIndex/613bc8af-dfb5-4e36-b397-d4a8fcaf6b08.vsidx
-/.vs/MagicBard/FileContentIndex/56727d69-0660-41f2-8d75-7e8fcc0a9551.vsidx
-/playlist/Burak Yeter - Tuesday ft. Danelle Sandoval [Y1_VsyLAGuk].f616.mp4.part
-/playlist/Burak Yeter - Tuesday ft. Danelle Sandoval [Y1_VsyLAGuk].f616.mp4.ytdl
 /.vs/VSWorkspaceState.json
-/.vs/MagicBard/config/applicationhost.config
 /.vs/slnx.sqlite
-/.vs/CMakeWorkspaceSettings.json
-/.vs/MagicBard/FileContentIndex/b64acbe1-c40b-4c33-a084-f06fb5f29ca9.vsidx
+/.vs/MagicBard/config/applicationhost.config
 /.vs/MagicBard/FileContentIndex
+/.vs/MagicBard/v17/.wsuo
+/.vs/MagicBard/v17/DocumentLayout.json
+/.vs/MagicBard/v17/DocumentLayout.backup.json
