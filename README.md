@@ -39,4 +39,5 @@ MagicBard is a powerful and user-friendly Discord bot that allows you to enjoy m
 1. Invite MagicBard to your server.
 2. Use the /join command to connect the bot to the voice channel.
 3. Start enjoying the music with the /play command.
+
 MagicBard is designed to make listening to music on the Discord server simple and convenient.
