@@ -55,7 +55,7 @@ namespace MagicBard.PlaylistAPI
                 try
                 {
                     UpdatePlaylist();
-                    await Task.Delay(TimeSpan.FromSeconds(10), token); // Обновляем плейлист каждые 10 сек
+                    await Task.Delay(TimeSpan.FromSeconds(10), token);
                 }
                 catch (Exception ex)
                 {

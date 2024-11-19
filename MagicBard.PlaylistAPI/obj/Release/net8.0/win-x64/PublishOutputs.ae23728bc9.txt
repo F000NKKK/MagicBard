@@ -1,0 +1,7 @@
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\playlist.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\swagger\v1\swagger.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\MagicBard.PlaylistAPI.pdb
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\playlist\Once Upon a December (Anastasia) [1SH1PqOEGnE].f251.webm
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\playlist\Once Upon A December (Piano) [2ZuWj14geps].webm
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Release\net8.0\win-x64\PubTmp\Out\MagicBard.PlaylistAPI.exe

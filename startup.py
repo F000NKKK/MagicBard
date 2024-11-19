@@ -11,25 +11,25 @@ class Application:
         self.logger = logger
 
         try:
-            self.logger.info("Инициализация приложения началась.")
+            self.logger.info("Application initialization started.")
 
-            # Загрузка конфигурации
+            # Load configuration
             self.config_loader = ConfigLoader("appsettings.json", self.logger)
-            self.logger.info("Конфигурация загружена успешно.")
+            self.logger.info("Configuration successfully loaded.")
 
-            # Валидация обязательных параметров конфигурации
+            # Validate required configuration parameters
             self.validate_configuration()
 
-            # Инициализация компонентов
+            # Initialize components
             self.initialize_components()
 
-            self.logger.info("Приложение успешно инициализировано.")
+            self.logger.info("Application successfully initialized.")
         except Exception as e:
-            self.logger.error("Ошибка при инициализации приложения", exc_info=True)
+            self.logger.error("Error during application initialization", exc_info=True)
             raise
 
     def validate_configuration(self):
-        self.logger.info("Валидация конфигурации началась.")
+        self.logger.info("Configuration validation started.")
 
         yt_dlp_path = self.config_loader.get("yt_dlp_path", "")
         download_path = self.config_loader.get("download_path", "")
@@ -37,25 +37,25 @@ class Application:
         playlist_dir = self.config_loader.get("playlist_dir", "")
 
         if not yt_dlp_path:
-            raise ValueError("Путь к yt-dlp не указан в конфигурации.")
+            raise ValueError("The path to yt-dlp is not specified in the configuration.")
         if not download_path:
-            raise ValueError("Путь для скачивания не указан в конфигурации.")
+            raise ValueError("The download path is not specified in the configuration.")
         if not discord_token:
-            raise ValueError("Токен Discord не указан в конфигурации.")
+            raise ValueError("The Discord token is not specified in the configuration.")
         if not playlist_dir:
-            raise ValueError("Директория для плейлистов не указана в конфигурации.")
+            raise ValueError("The playlist directory is not specified in the configuration.")
 
         if not os.path.exists(yt_dlp_path):
-            raise FileNotFoundError(f"Путь к yt-dlp '{yt_dlp_path}' не существует.")
+            raise FileNotFoundError(f"The yt-dlp path '{yt_dlp_path}' does not exist.")
         if not os.path.isdir(download_path):
-            raise NotADirectoryError(f"Директория для скачивания '{download_path}' не существует.")
+            raise NotADirectoryError(f"The download directory '{download_path}' does not exist.")
         if not os.path.isdir(playlist_dir):
-            raise NotADirectoryError(f"Директория для плейлистов '{playlist_dir}' не существует.")
+            raise NotADirectoryError(f"The playlist directory '{playlist_dir}' does not exist.")
 
-        self.logger.info("Валидация конфигурации завершена успешно.")
+        self.logger.info("Configuration validation completed successfully.")
 
     def initialize_components(self):
-        self.logger.info("Инициализация компонентов приложения.")
+        self.logger.info("Initializing application components.")
 
         yt_dlp_path = self.config_loader.get("yt_dlp_path")
         download_path = self.config_loader.get("download_path")
@@ -69,21 +69,21 @@ class Application:
             config_loader=self.config_loader,
             playlist_controller=self.playlist_controller,
             downloader=self.downloader,
-            logger = self.logger
+            logger=self.logger
         )
 
-        self.logger.info("Компоненты приложения успешно инициализированы.")
+        self.logger.info("Application components successfully initialized.")
 
     def start(self):
-        self.logger.info("Запуск приложения.")
+        self.logger.info("Starting application.")
         try:
             if hasattr(self, 'discord_bot'):
                 self.discord_bot.run()
-                self.logger.info("Discord бот запущен успешно.")
+                self.logger.info("Discord bot started successfully.")
             else:
-                self.logger.error("Discord бот не инициализирован. Проверьте конфигурацию.")
-                print("Не удалось инициализировать приложение. Проверьте конфигурацию.")
+                self.logger.error("Discord bot not initialized. Check the configuration.")
+                print("Failed to initialize the application. Check the configuration.")
         except Exception as e:
-            self.logger.error("Ошибка при запуске Discord бота", exc_info=True)
-            print(f"Ошибка при запуске приложения. Подробности записаны в {log_file}", file=sys.stderr)
+            self.logger.error("Error while running the Discord bot", exc_info=True)
+            print(f"Error while running the application. Details are logged in {log_file}", file=sys.stderr)
             sys.exit(1)

@@ -11,9 +11,9 @@ class BardDiscordBot:
 # Method to join the voice channel
     async def join_to_channel(self, interaction: discord.Interaction):
         try:
-            if interaction.user.voice:  # Проверка, если пользователь в голосовом канале
+            if interaction.user.voice:
                 channel = interaction.user.voice.channel
-                if not self.voice_client or not self.voice_client.is_connected():  # Проверка, если бот уже в канале
+                if not self.voice_client or not self.voice_client.is_connected():
                     self.voice_client = await channel.connect()
                     self.logger.info(f"[join_to_channel] Bot joined voice channel: {channel.name}")
                     await interaction.response.send_message(f"Joined {channel.name}!")
@@ -29,12 +29,12 @@ class BardDiscordBot:
     # Method to play the next track in the playlist
     async def play_next_track(self):
         """Play the next track in the playlist."""
-        if self.is_playing:  # Проверка, если трек уже воспроизводится
+        if self.is_playing:
             self.logger.info("[play_next_track] Track already playing. Skipping next track.")
             return
     
         try:
-            self.is_playing = True  # Устанавливаем флаг воспроизведения
+            self.is_playing = True 
     
             next_track = self.playlist_controller.get_track()
             if not next_track:
@@ -52,24 +52,24 @@ class BardDiscordBot:
     
             self.logger.info(f"[play_next_track] Loading next track: {next_track['title']}")
     
-            # Функция после завершения воспроизведения
+            
             def after_playing(error):
                 if error:
                     self.logger.error(f"[play_next_track] Error playing track: {error}")
                 else:
                     self.logger.info(f"[play_next_track] Finished playing: {self.current_track['title']}")
             
-                self.is_playing = False  # Сбрасываем флаг воспроизведения
-                if not self.voice_client.is_playing():  # Если бот не воспроизводит, продолжаем с следующего трека
+                self.is_playing = False
+                if not self.voice_client.is_playing():
                     asyncio.run_coroutine_threadsafe(self.play_next_track(), self.loop)
     
-            # Начинаем воспроизведение трека
+            
             self.voice_client.play(FFmpegPCMAudio(track_path), after=after_playing)
             self.logger.info(f"[play_next_track] Now playing: {next_track['title']}")
     
         except Exception as e:
             self.logger.error(f"[play_next_track] Error in play_next_track: {e}")
-            self.is_playing = False  # Сбрасываем флаг воспроизведения
+            self.is_playing = False
 
     def __init__(self, token, config_loader, playlist_controller, downloader, logger):
         self.logger = logger
@@ -79,7 +79,7 @@ class BardDiscordBot:
         self.downloader = downloader
         self.voice_client = None
         self.current_track = None
-        self.is_playing = False  # Флаг для проверки состояния воспроизведения
+        self.is_playing = False
 
         intents = discord.Intents.default()
         intents.messages = True
@@ -91,7 +91,6 @@ class BardDiscordBot:
 
         @self.bot.event
         async def on_ready():
-            # Создаем новый event loop, если его нет
             if not asyncio.get_event_loop().is_running():
                 self.loop = asyncio.new_event_loop()
                 asyncio.set_event_loop(self.loop)
@@ -99,7 +98,6 @@ class BardDiscordBot:
                 self.loop = asyncio.get_event_loop()
             self.logger.info(f"[on_ready] Bot {self.bot.user} has successfully started!")
             try:
-                # Синхронизируем команды только после запуска бота
                 await self.bot.tree.sync()
                 self.logger.info("[on_ready] Slash commands synchronized successfully.")
             except Exception as e:
@@ -108,16 +106,15 @@ class BardDiscordBot:
         # Command to join voice channel
         @self.bot.tree.command(name="join", description="Join your voice channel")
         async def join(interaction: discord.Interaction):
-            await self.join_to_channel(interaction)  # Подключаем бота, если он не в канале
+            await self.join_to_channel(interaction)
 
-        # Команда для воспроизведения плейлиста
         @self.bot.tree.command(name="play", description="Start playing the playlist")
         async def play(interaction: discord.Interaction):
             try:
-                await interaction.response.defer()  # Отложенный ответ для долгих операций
+                await interaction.response.defer()
 
                 if not self.voice_client or not self.voice_client.is_connected():
-                    await self.join_to_channel(interaction)  # Подключаем бота, если он не в канале
+                    await self.join_to_channel(interaction)
 
                 if self.voice_client.is_playing():
                     await interaction.followup.send("Already playing music.")
@@ -167,7 +164,6 @@ class BardDiscordBot:
                 else:
                     await interaction.followup.send(f"An error occurred while skipping: {e}")
 
-        # Команда /download
         @self.bot.tree.command(name="download", description="Add track to playlist")
         async def download(interaction: discord.Interaction, url: str):
             try:
@@ -181,7 +177,6 @@ class BardDiscordBot:
                 self.logger.error(f"[/download] Error in download command: {e}")
                 await interaction.followup.send(f"Failed to download track: {e}")
 
-        # Команда /stop
         @self.bot.tree.command(name="stop", description="Stop the music")
         async def stop(interaction: discord.Interaction):
             try:
@@ -195,7 +190,6 @@ class BardDiscordBot:
                 self.logger.error(f"[/stop] Error in stop command: {e}")
                 await interaction.response.send_message("Failed to stop the music.")
 
-        # Команда /pause
         @self.bot.tree.command(name="pause", description="Pause the track playback")
         async def pause(interaction: discord.Interaction):
             try:
@@ -209,7 +203,6 @@ class BardDiscordBot:
                 self.logger.error(f"[/pause] Error in pause command: {e}")
                 await interaction.response.send_message("Failed to pause playback.")
 
-        # Команда /resume
         @self.bot.tree.command(name="resume", description="Resume the track playback")
         async def resume(interaction: discord.Interaction):
             try:
@@ -223,7 +216,6 @@ class BardDiscordBot:
                 self.logger.error(f"[/resume] Error in resume command: {e}")
                 await interaction.response.send_message("Failed to resume playback.")
         
-        # Command /shuffle to toggle shuffle mode
         @self.bot.tree.command(name="shuffle", description="Shuffle the playlist")
         async def shuffle(interaction: discord.Interaction, mode: str):
             if mode == "t":
@@ -235,23 +227,19 @@ class BardDiscordBot:
             else:
                 await interaction.response.send_message("Invalid mode. Please use 't' or 'f'.")
 
-        # Команда /repeat для выбора режима повтора
-        @self.bot.tree.command(name="repeat", description="Выбрать режим повтора 0 - без, 1 - один трек, 2 - все треки")
+        @self.bot.tree.command(name="repeat", description="Set repeat mode: 0 - none, 1 - single track, 2 - all tracks")
         async def repeat(interaction: discord.Interaction, mode: int):
-            # Проверяем, что mode является целым числом
             if not isinstance(mode, int):
-                await interaction.response.send_message("Режим повтора должен быть целым числом.")
+                await interaction.response.send_message("Repeat mode must be an integer.")
                 return
 
-            # Проверяем, что mode находится в допустимом диапазоне [0, 1, 2]
             if mode not in [0, 1, 2]:
-                await interaction.response.send_message("Неверный режим повтора. Используйте 0, 1 или 2.")
+                await interaction.response.send_message("Invalid repeat mode. Use 0, 1, or 2.")
                 return
 
-            # Устанавливаем режим повтора в плейлисте
             self.playlist_controller.set_repeat(mode)
-            await interaction.response.send_message(f"Режим повтора установлен на {mode}.")
-            
+            await interaction.response.send_message(f"Repeat mode set to {mode}.")
+
     def run(self):
         try:
             self.bot.run(self.token)

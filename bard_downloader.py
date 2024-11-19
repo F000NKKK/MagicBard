@@ -8,25 +8,25 @@ class Downloader:
         self.yt_dlp_path = yt_dlp_path
         self.download_path = download_path
 
-        # Валидация пути для yt-dlp
+        # Validate yt-dlp path
         if not os.path.isfile(self.yt_dlp_path):
-            self.logger.error(f"Файл {self.yt_dlp_path} не найден или не является исполнимым файлом.")
-            raise FileNotFoundError(f"Файл {self.yt_dlp_path} не найден или не является исполнимым файлом.")
+            self.logger.error(f"The file {self.yt_dlp_path} was not found or is not an executable file.")
+            raise FileNotFoundError(f"The file {self.yt_dlp_path} was not found or is not an executable file.")
 
-        # Проверка существования пути для скачивания и создание папки, если ее нет
+        # Check if the download path exists and create the folder if it does not
         if not os.path.exists(self.download_path):
             try:
                 os.makedirs(self.download_path)
-                self.logger.info(f"Создана папка для скачивания: {self.download_path}")
+                self.logger.info(f"Created download folder: {self.download_path}")
             except Exception as e:
-                self.logger.error(f"Не удалось создать папку для скачивания: {e}")
-                raise PermissionError(f"Не удалось создать папку для скачивания: {e}")
+                self.logger.error(f"Failed to create download folder: {e}")
+                raise PermissionError(f"Failed to create download folder: {e}")
 
     async def download_track(self, url):
         try:
-            self.logger.info(f"Начало скачивания трека по URL: {url}")
+            self.logger.info(f"Starting track download from URL: {url}")
 
-            # Запуск команды с помощью asyncio
+            # Run the command using asyncio
             process = await asyncio.create_subprocess_exec(
                 self.yt_dlp_path,
                 url,
@@ -35,50 +35,50 @@ class Downloader:
                 cwd=self.download_path
             )
 
-            # Считывание stdout и stderr
+            # Read stdout and stderr
             stdout, stderr = await process.communicate()
 
-            # Логирование для отладки
+            # Logging for debugging
             self.logger.info(f"stdout: {stdout.decode()}")
             self.logger.error(f"stderr: {stderr.decode()}")
 
-            # Проверка кода возврата
+            # Check the return code
             if process.returncode != 0:
-                error_message = f"Ошибка скачивания: {stderr.decode().strip()}"
+                error_message = f"Download error: {stderr.decode().strip()}"
                 self.logger.error(error_message)
                 raise Exception(error_message)
 
-            # Поиск строки с местоположением файла
+            # Find the line with the file location
             for line in stdout.decode().splitlines():
                 if "[download] Destination:" in line:
                     file_path = line.split(": ", 1)[1].strip()
-                    self.logger.info(f"Трек успешно загружен: {file_path}")
+                    self.logger.info(f"Track successfully downloaded: {file_path}")
                     return file_path
 
-            # Если местоположение не найдено
-            error_message = "Не удалось найти местоположение файла после скачивания."
+            # If file location is not found
+            error_message = "Unable to find the file location after downloading."
             self.logger.error(error_message)
             raise Exception(error_message)
 
         except FileNotFoundError as e:
-            self.logger.error(f"Ошибка: {e}")
+            self.logger.error(f"Error: {e}")
             return None
         except PermissionError as e:
-            self.logger.error(f"Ошибка доступа: {e}")
+            self.logger.error(f"Permission error: {e}")
             return None
         except Exception as e:
-            self.logger.error(f"Ошибка при загрузке трека: {e}", exc_info=True)
+            self.logger.error(f"Error while downloading track: {e}", exc_info=True)
             return None
 
 
-# Пример вызова
+# Example usage
 # async def main():
-#     down = Downloader('./yt-dlp.exe', './playlist')
-#     file_path = await down.download_track('https://www.youtube.com/watch?v=1ll3FvVk6BA')
+#     downloader = Downloader('./yt-dlp.exe', './playlist', logger)
+#     file_path = await downloader.download_track('https://www.youtube.com/watch?v=1ll3FvVk6BA')
 #     if file_path:
-#         self.logger.info(f"Трек успешно загружен: {file_path}")
+#         logger.info(f"Track successfully downloaded: {file_path}")
 #     else:
-#         self.logger.error("Не удалось загрузить трек.")
+#         logger.error("Failed to download the track.")
 #
-# # Запуск асинхронного кода
+# # Run async code
 # asyncio.run(main())

@@ -1,0 +1,87 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Playlist API",
+    "description": "API for managing playlists",
+    "termsOfService": "http://example.com/terms/",
+    "contact": {
+      "name": "API Support",
+      "url": "http://example.com/support",
+      "email": "support@example.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "127.0.0.1:58912",
+  "basePath": "/",
+  "schemes": [ "http", "https" ],
+  "paths": {
+    "/api/playlists": {
+      "get": {
+        "tags": [ "Playlists" ],
+        "summary": "Get all playlists",
+        "operationId": "GetPlaylists",
+        "produces": [ "application/json" ],
+        "responses": {
+          "200": {
+            "description": "A list of playlists",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Playlist"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [ "Playlists" ],
+        "summary": "Create a new playlist",
+        "operationId": "CreatePlaylist",
+        "consumes": [ "application/json" ],
+        "parameters": [
+          {
+            "name": "playlist",
+            "in": "body",
+            "description": "Playlist to create",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Playlist"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Playlist created",
+            "schema": {
+              "$ref": "#/definitions/Playlist"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Playlist": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "name": {
+          "type": "string"
+        },
+        "songs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,15 +9,13 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Register services
+
         builder.Services.AddSingleton<IFileSystem, FileSystem>();
         builder.Services.AddSingleton<IPlaylistService, PlaylistService>();
         builder.Services.AddHostedService<PlaylistService>();
 
-        // Загрузка конфигурации из appsettings.json
         builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-        // Настройка сервисов
         builder.Services.AddControllers()
             .AddNewtonsoftJson(options =>
             {
@@ -25,7 +23,6 @@ internal class Program
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
 
-        // Настройки Kestrel
         builder.WebHost.ConfigureKestrel(options =>
         {
             var ipAddress = builder.Configuration.GetValue<string>("AppSettings:IpAddress");
@@ -36,15 +33,12 @@ internal class Program
                 throw new ArgumentNullException("AppSettings:IpAddress", "IP address is not provided in configuration.");
             }
 
-            // Указываем только один HTTP порт
-            options.Listen(IPAddress.Parse(ipAddress), httpPort); // Настройка только для HTTP
+            options.Listen(IPAddress.Parse(ipAddress), httpPort);
         });
 
-        // Добавление Swagger
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(c =>
         {
-            // Настройка информации о Swagger
             c.SwaggerDoc("v1", new OpenApiInfo
             {
                 Title = "Playlist API",
@@ -55,11 +49,10 @@ internal class Program
 
         var app = builder.Build();
 
-        // Настройка middleware
-        app.UseRouting(); // Включаем маршрутизацию
+        app.UseRouting();
 
-        // Swagger
-        app.UseSwagger();  // Генерация документации Swagger
+
+        app.UseSwagger();
         app.UseSwaggerUI(c =>
         {
             var swaggerAddress = builder.Configuration.GetValue<string>("AppSettings:SwaggerAddress");
@@ -69,7 +62,6 @@ internal class Program
             c.RoutePrefix = swaggerAddress;
         });
 
-        // Обработка запросов
         app.MapControllers();
         app.Run();
     }

@@ -1,5 +1,9 @@
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\MagicBard.PlaylistAPI.exe
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\swagger\v1\swagger.json
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist\Once Upon a December (Anastasia) [1SH1PqOEGnE].f251.webm
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist\Once Upon A December (Piano) [2ZuWj14geps].webm
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\MagicBard.PlaylistAPI.deps.json
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\MagicBard.PlaylistAPI.runtimeconfig.json
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\MagicBard.PlaylistAPI.dll
@@ -20,6 +24,9 @@ C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\Sw
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\System.IO.Abstractions.dll
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.dll
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.Wrappers.dll
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\MagicBard.PlaylistAPI.csproj.AssemblyReference.cache
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\MagicBard.PlaylistAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\MagicBard.PlaylistAPI.AssemblyInfoInputs.cache
@@ -42,10 +49,3 @@ C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\re
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\MagicBard.PlaylistAPI.pdb
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\MagicBard.PlaylistAPI.genruntimeconfig.cache
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\obj\Debug\net8.0\ref\MagicBard.PlaylistAPI.dll
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\swagger\v1\swagger.json
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist.json
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\System.IO.Abstractions.dll
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.dll
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\TestableIO.System.IO.Abstractions.Wrappers.dll
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist\Once Upon a December (Anastasia) [1SH1PqOEGnE].f251.webm
-C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Debug\net8.0\playlist\Once Upon A December (Piano) [2ZuWj14geps].webm

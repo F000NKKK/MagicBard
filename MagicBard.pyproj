@@ -22,7 +22,6 @@
     <Compile Include="bard_config_loader.py" />
     <Compile Include="bard_discord_bot.py" />
     <Compile Include="bard_downloader.py" />
-    <Compile Include="bard_playlist_controller.py" />
     <Compile Include="program.py" />
     <Compile Include="startup.py" />
   </ItemGroup>
