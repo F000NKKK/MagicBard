@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicBard.PlaylistAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d4be47f658e9eda33722683b042be0503c37c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5ebbf2382016577ddbb7f84d13e147d639facc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicBard.PlaylistAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicBard.PlaylistAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "MagicBard.DownloaderAPI.Controllers.DownloaderController",
+    "Method": "DownloadTrack",
+    "RelativePath": "Downloader/DownloadTrack",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

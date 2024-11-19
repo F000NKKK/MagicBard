@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MagicBard.DownloaderAPI.props" />
+</Project>

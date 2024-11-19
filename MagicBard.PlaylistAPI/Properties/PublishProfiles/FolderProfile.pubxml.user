@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\F000NK\source\repos\MagicBard\MagicBard.PlaylistAPI\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-11-19T20:51:06.6952457Z||;True|2024-11-20T02:48:18.6063708+06:00||;True|2024-11-20T02:46:24.3130792+06:00||;True|2024-11-20T02:45:38.8178362+06:00||;</History>
+    <History>True|2024-11-19T22:01:44.6484105Z||;True|2024-11-20T02:51:06.6952457+06:00||;True|2024-11-20T02:48:18.6063708+06:00||;True|2024-11-20T02:46:24.3130792+06:00||;True|2024-11-20T02:45:38.8178362+06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

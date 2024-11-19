@@ -1,68 +1,80 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Configuration;
+using MagicBard.PlaylistAPI.Services;
+using System.IO.Abstractions;
+using Newtonsoft.Json;
 using Microsoft.OpenApi.Models;
 using System.Net;
-using MagicBard.PlaylistAPI;
-using System.IO.Abstractions;
-internal class Program
+using MagicBard.PlaylistAPI.Settings;
+
+namespace MagicBard.PlaylistAPI
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        var builder = WebApplication.CreateBuilder(args);
+        private static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
 
+            // Чтение конфигурации из appsettings.json
+            builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-        builder.Services.AddSingleton<IFileSystem, FileSystem>();
-        builder.Services.AddSingleton<IPlaylistService, PlaylistService>();
-        builder.Services.AddHostedService<PlaylistService>();
+            // Привязка конфигурации к классу ServerSettings
+            builder.Services.Configure<ServerSettings>(builder.Configuration.GetSection("AppSettings"));
 
-        builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            // Регистрация сервисов
+            builder.Services.AddSingleton<IFileSystem, FileSystem>();
+            builder.Services.AddSingleton<IPlaylistService, PlaylistService>();
+            builder.Services.AddHostedService<PlaylistService>();
 
-        builder.Services.AddControllers()
-            .AddNewtonsoftJson(options =>
+            // Добавление контроллеров с конфигурацией JSON
+            builder.Services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.Formatting = Formatting.Indented;
+                    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+                });
+
+            // Настройка Kestrel для прослушивания на нужном IP и порту
+            builder.WebHost.ConfigureKestrel((context, options) =>
             {
-                options.SerializerSettings.Formatting = Formatting.Indented;
-                options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+                var serverSettings = builder.Configuration.GetSection("AppSettings").Get<ServerSettings>();
+
+                if (string.IsNullOrEmpty(serverSettings.IpAddress))
+                {
+                    throw new ArgumentNullException("AppSettings:IpAddress", "IP address is not provided in configuration.");
+                }
+
+                options.Listen(IPAddress.Parse(serverSettings.IpAddress), serverSettings.HttpPort);
             });
 
-        builder.WebHost.ConfigureKestrel(options =>
-        {
-            var ipAddress = builder.Configuration.GetValue<string>("AppSettings:IpAddress");
-            var httpPort = builder.Configuration.GetValue<int>("AppSettings:HttpPort");
-
-            if (string.IsNullOrEmpty(ipAddress))
+            // Настройка Swagger для API
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen(c =>
             {
-                throw new ArgumentNullException("AppSettings:IpAddress", "IP address is not provided in configuration.");
-            }
-
-            options.Listen(IPAddress.Parse(ipAddress), httpPort);
-        });
-
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen(c =>
-        {
-            c.SwaggerDoc("v1", new OpenApiInfo
-            {
-                Title = "Playlist API",
-                Version = "v1",
-                Description = "API for managing playlists"
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Playlist API",
+                    Version = "v1",
+                    Description = "API for managing playlists"
+                });
             });
-        });
 
-        var app = builder.Build();
+            var app = builder.Build();
 
-        app.UseRouting();
+            // Настройка маршрутизации и Swagger UI
+            app.UseRouting();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                var swaggerAddress = builder.Configuration.GetValue<string>("AppSettings:SwaggerAddress");
+                var swaggerEndpoint = builder.Configuration.GetValue<string>("AppSettings:SwaggerEndpoint");
 
-        app.UseSwagger();
-        app.UseSwaggerUI(c =>
-        {
-            var swaggerAddress = builder.Configuration.GetValue<string>("AppSettings:SwaggerAddress");
-            var swaggerEndpoint = builder.Configuration.GetValue<string>("AppSettings:SwaggerEndpoint");
+                c.SwaggerEndpoint(swaggerEndpoint, "Playlist API V1");
+                c.RoutePrefix = swaggerAddress;
+            });
 
-            c.SwaggerEndpoint(swaggerEndpoint, "Playlist API V1");
-            c.RoutePrefix = swaggerAddress;
-        });
-
-        app.MapControllers();
-        app.Run();
+            app.MapControllers();
+            app.Run();
+        }
     }
 }

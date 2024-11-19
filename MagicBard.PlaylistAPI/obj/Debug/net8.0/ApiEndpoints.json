@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "MagicBard.PlaylistAPI.PlaylistController",
+    "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "GetCurrentTrack",
     "RelativePath": "api/Playlist/current",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "MagicBard.PlaylistAPI.PlaylistController",
+    "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "NextTrack",
     "RelativePath": "api/Playlist/next",
     "HttpMethod": "POST",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "ContainingType": "MagicBard.PlaylistAPI.PlaylistController",
+    "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "SetRepeatMode",
     "RelativePath": "api/Playlist/repeat",
     "HttpMethod": "POST",
@@ -56,7 +56,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MagicBard.PlaylistAPI.PlaylistController",
+    "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "ShufflePlaylist",
     "RelativePath": "api/Playlist/shuffle",
     "HttpMethod": "POST",
@@ -72,7 +72,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MagicBard.PlaylistAPI.PlaylistController",
+    "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "GetTracks",
     "RelativePath": "api/Playlist/tracks",
     "HttpMethod": "GET",
