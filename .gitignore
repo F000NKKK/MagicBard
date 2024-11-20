@@ -9,3 +9,8 @@
 /.vs/MagicBard/v17/.wsuo
 /.vs/MagicBard/v17/DocumentLayout.json
 /.vs/MagicBard/v17/DocumentLayout.backup.json
+/.vs/MagicBard/v17/.suo
+/MagicBard.DownloaderAPI/obj/Debug/net8.0/MagicBard.DownloaderAPI.AssemblyInfo.cs
+/MagicBard.DownloaderAPI/obj/Debug/net8.0/MagicBard.DownloaderAPI.AssemblyInfoInputs.cache
+/MagicBard.PlaylistAPI/obj/Debug/net8.0/MagicBard.PlaylistAPI.AssemblyInfoInputs.cache
+/MagicBard.PlaylistAPI/obj/Debug/net8.0/MagicBard.PlaylistAPI.AssemblyInfo.cs
