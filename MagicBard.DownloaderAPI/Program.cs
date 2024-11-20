@@ -13,6 +13,7 @@ namespace MagicBard.DownloaderAPI
             var serverSettings = builder.Configuration.GetSection("ServerSettings").Get<ServerSettings>();
             var swaggerSettings = builder.Configuration.GetSection("SwaggerSettings").Get<SwaggerSettings>();
 
+            builder.Services.Configure<DownloaderSettings>(builder.Configuration.GetSection("DownloaderSettings"));
             builder.Services.AddScoped<IDownloaderService, DownloaderService>();
 
             // Добавляем сервисы
