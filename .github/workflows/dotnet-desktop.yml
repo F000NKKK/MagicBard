@@ -1,0 +1,70 @@
+name: .NET Core Build
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+
+  build:
+
+    strategy:
+      matrix:
+        configuration: [Debug, Release]  # Ожидаемая конфигурация для сборки (Debug или Release)
+
+    runs-on: windows-latest  # Используем Windows для сборки .NET приложений
+
+    env:
+      Solution_Name: MagicBard.sln  # Имя вашего решения
+      DownloaderAPI_Project: MagicBard.DownloaderAPI\MagicBard.DownloaderAPI.csproj  # Путь к проекту DownloaderAPI
+      PlaylistAPI_Project: MagicBard.PlaylistAPI\MagicBard.PlaylistAPI.csproj  # Путь к проекту PlaylistAPI
+
+    steps:
+    # Шаг 1: Checkout репозитория
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Загружаем полную историю репозитория
+
+    # Шаг 2: Установка .NET Core SDK
+    - name: Install .NET Core
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x  # Устанавливаем нужную версию .NET SDK (8.0)
+
+    # Шаг 3: Установка MSBuild для сборки проектов
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    # Шаг 4: Восстановление зависимостей проекта
+    - name: Restore the application
+      run: |
+        dotnet restore $env:Solution_Name  # Восстанавливаем зависимости для всего решения
+        dotnet restore $env:DownloaderAPI_Project  # Восстанавливаем зависимости для DownloaderAPI
+        dotnet restore $env:PlaylistAPI_Project  # Восстанавливаем зависимости для PlaylistAPI
+
+    # Шаг 5: Сборка решения и проектов
+    - name: Build the application
+      run: |
+        dotnet build $env:Solution_Name -c ${{ matrix.configuration }}  # Строим все проекты в решении
+        dotnet build $env:DownloaderAPI_Project -c ${{ matrix.configuration }}  # Строим только проект DownloaderAPI
+        dotnet build $env:PlaylistAPI_Project -c ${{ matrix.configuration }}  # Строим проект PlaylistAPI
+
+    # Шаг 6: (Опционально) Запуск тестов (если они появятся в проекте)
+    # Если у вас есть тесты, добавьте этот шаг для их выполнения
+    #- name: Execute unit tests (optional)
+    # run: |
+    #   dotnet test $env:Solution_Name  # Запускаем все тесты для решения
+    #   dotnet test $env:DownloaderAPI_Project  # Запускаем тесты для DownloaderAPI
+    #   dotnet test $env:PlaylistAPI_Project  # Запускаем тесты для PlaylistAPI
+
+    # Шаг 7: Загрузка артефактов сборки
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: app-build  # Имя артефакта
+        path: |
+          MagicBard.DownloaderAPI/bin/${{ matrix.configuration }}  # Путь к собранному артефакту DownloaderAPI
+          MagicBard.PlaylistAPI/bin/${{ matrix.configuration }}  # Путь к собранному артефакту PlaylistAPI
