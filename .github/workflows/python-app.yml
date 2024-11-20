@@ -3,32 +3,32 @@ name: Python CI Workflow
 on:
   push:
     branches:
-      - main  # Запускать workflow только при пуше в ветку 'main'
+      - main
   pull_request:
     branches:
-      - main  # Запускать workflow для pull request в ветку 'main'
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Используется последняя версия Ubuntu для CI/CD
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3  # Клонируем репозиторий
+      uses: actions/checkout@v3
 
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       with:
-        python-version: 3.11  # Устанавливаем Python 3.11
+        python-version: 3.11
 
     - name: Install dependencies
       run: |
-        python -m venv venv  # Создаем виртуальное окружение
-        source venv/bin/activate  # Активируем виртуальное окружение
-        pip install --upgrade pip  # Обновляем pip
-        pip install -r requirements.txt  # Устанавливаем зависимости из requirements.txt
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirements.txt
 
     - name: Check if project runs without errors
       run: |
-        source venv/bin/activate  # Активируем виртуальное окружение
-        python -c "print('Project is running successfully!')"  # Пример команды для проверки, что Python работает корректно
+        source venv/bin/activate
+        python -c "print('Project is running successfully!')"
