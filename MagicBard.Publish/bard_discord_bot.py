@@ -226,8 +226,9 @@ class BardDiscordBot:
         async def download(interaction: discord.Interaction, url: str):
             if not interaction.response.is_done():
                 await interaction.response.defer()
+
             try:
-                await interaction.response.send_message("Downloading track...")
+                await interaction.followup.send("Downloading track...")
                 self.logger.info(f"[/download] Downloading track from URL: {url}")
 
                 response = requests.get(f"http://localhost:52401/Downloader/DownloadTrack", params={"url": url})
@@ -244,7 +245,6 @@ class BardDiscordBot:
             except Exception as e:
                 self.logger.error(f"[/download] Unexpected error: {e}")
                 await interaction.followup.send(f"Failed to download track: {e}")
-
 
         @self.bot.tree.command(name="shuffle", description="Shuffle the playlist")
         async def shuffle(interaction: discord.Interaction, mode: str):
