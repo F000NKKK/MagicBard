@@ -2,4 +2,5 @@ C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.0\win-x64\PubTmp\Out\swagger\v1\swagger.json
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.0\win-x64\PubTmp\Out\MagicBard.DownloaderAPI.pdb
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.0\win-x64\PubTmp\Out\yt-dlp.exe
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Release\net8.0\win-x64\PubTmp\Out\MagicBard.DownloaderAPI.exe

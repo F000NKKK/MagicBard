@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicBard.DownloaderAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5ebbf2382016577ddbb7f84d13e147d639facc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f29bdaf200d0f0cd098338332bffbe8d4d0d8a37")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicBard.DownloaderAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicBard.DownloaderAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,7 +23,7 @@
     "ContainingType": "MagicBard.PlaylistAPI.Controllers.PlaylistController",
     "Method": "NextTrack",
     "RelativePath": "api/Playlist/next",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

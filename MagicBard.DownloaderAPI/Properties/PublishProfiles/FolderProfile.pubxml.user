@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-11-19T22:05:22.5567336Z||;</History>
+    <History>True|2024-11-19T23:10:19.3539262Z||;True|2024-11-20T04:05:22.5567336+06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

@@ -65,3 +65,4 @@ C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Debug\net8.0\
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Debug\net8.0\MagicBard.DownloaderAPI.pdb
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Debug\net8.0\MagicBard.DownloaderAPI.genruntimeconfig.cache
 C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\obj\Debug\net8.0\ref\MagicBard.DownloaderAPI.dll
+C:\Users\F000NK\source\repos\MagicBard\MagicBard.DownloaderAPI\bin\Debug\net8.0\yt-dlp.exe

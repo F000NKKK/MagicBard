@@ -41,7 +41,7 @@ namespace MagicBard.PlaylistAPI.Controllers
             }
         }
 
-        [HttpPost("next")]
+        [HttpGet("next")]
         public ActionResult<Track> NextTrack()
         {
             try

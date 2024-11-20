@@ -162,14 +162,15 @@ namespace MagicBard.PlaylistAPI.Services
 
             if (RepeatMode == 0 && CurrentIndex + 1 == Playlist.Count)
             {
-                _logger.LogInformation("End of the playlist.");
-
-                CurrentIndex += 1;
+                
                 var LastIndex = (CurrentIndex + 1) % Playlist.Count;
+                CurrentIndex += 1;
                 return Playlist[LastIndex];
             }
             else if (RepeatMode == 0 && CurrentIndex == Playlist.Count)
             {
+                _logger.LogInformation("End of the playlist.");
+
                 CurrentIndex = 0;
                 return new Track();
             }
