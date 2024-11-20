@@ -23,6 +23,9 @@ jobs:
       run: |
         python -m ensurepip --upgrade
         python -m pip install --upgrade pip setuptools
+        python -m pip install --upgrade distlib six urllib3
+        pip freeze
+        pip install msgpack --upgrade
         pip install --upgrade six
         pip install flake8 pytest
         if [ -f MagicBard.DiscordBot/requirements.txt ]; then pip install -r MagicBard.DiscordBot/requirements.txt; fi
