@@ -3,10 +3,10 @@ name: Python CI Workflow
 on:
   push:
     branches:
-      - main  # Запускается на пуш в ветку main
+      - master  # Запускается на пуш в ветку main
   pull_request:
     branches:
-      - main  # Запускается при pull request в ветку main
+      - master  # Запускается при pull request в ветку main
 
 jobs:
   build:
