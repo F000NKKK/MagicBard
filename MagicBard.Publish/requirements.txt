@@ -1,4 +1,4 @@
 discord.py
 requests
 flake8
-pytest
+pytes==7.4.0
