@@ -43,4 +43,8 @@ MagicBard is a powerful and user-friendly Discord bot that allows you to enjoy m
 MagicBard is designed to make listening to music on the Discord server simple and convenient.
 
 ## Download the assembled project
-[Download Release v1.0.2 Build - Win11x64](https://github.com/F000NKKK/MagicBard---Discord-Music-Bot/releases/download/v1.0.2/MagicBard_Win11x64_build.zip)
+| Версия      | Ссылка для скачивания                                           |
+|:-------------:|:---------------------------------------------------------------:|
+| v1.0.2 Build | [Win11 x64 Release](https://github.com/F000NKKK/MagicBard---Discord-Music-Bot/releases/download/v1.0.2/MagicBard_Win11x64_build.zip) |
+
+
