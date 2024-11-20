@@ -1,16 +1,25 @@
-﻿################################################################################
-# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
-################################################################################
+# Visual Studio
+.vs/
+.vscode/
 
-/.vs/VSWorkspaceState.json
-/.vs/slnx.sqlite
-/.vs/MagicBard/config/applicationhost.config
-/.vs/MagicBard/FileContentIndex
-/.vs/MagicBard/v17/.wsuo
-/.vs/MagicBard/v17/DocumentLayout.json
-/.vs/MagicBard/v17/DocumentLayout.backup.json
-/.vs/MagicBard/v17/.suo
-/MagicBard.DownloaderAPI/obj/Debug/net8.0/MagicBard.DownloaderAPI.AssemblyInfo.cs
-/MagicBard.DownloaderAPI/obj/Debug/net8.0/MagicBard.DownloaderAPI.AssemblyInfoInputs.cache
-/MagicBard.PlaylistAPI/obj/Debug/net8.0/MagicBard.PlaylistAPI.AssemblyInfoInputs.cache
-/MagicBard.PlaylistAPI/obj/Debug/net8.0/MagicBard.PlaylistAPI.AssemblyInfo.cs
+# C# (объектные и скомпилированные файлы)
+**/obj/
+**/bin/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+
+# Системные файлы
+Thumbs.db
+Desktop.ini
+
+# Логи и временные файлы
+*.log
+*.bak
+*.tmp
+
