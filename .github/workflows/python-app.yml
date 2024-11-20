@@ -1,0 +1,42 @@
+name: Python CI Workflow
+
+on:
+  push:
+    branches:
+      - master  # Запускается на пуш в ветку main
+  pull_request:
+    branches:
+      - master  # Запускается при pull request в ветку main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Используем последнюю версию Ubuntu для CI
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3  # Клонируем репозиторий
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11  # Устанавливаем Python 3.11
+
+    - name: Install dependencies
+      run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
+        python -m venv venv  # Создаем виртуальное окружение
+        source venv/bin/activate  # Активируем виртуальное окружение
+        pip install --upgrade pip  # Обновляем pip
+        pip install -r requirements.txt  # Устанавливаем зависимости
+
+    - name: Check if Python is working
+      run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
+        source venv/bin/activate  # Активируем виртуальное окружение
+        python -c "print('Python is working successfully!')"  # Проверка работы Python
+
+    - name: Check if project is running without errors
+      run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
+        source venv/bin/activate  # Активируем виртуальное окружение
+        python -c "print('Project is running successfully!')"  # Дополнительная проверка

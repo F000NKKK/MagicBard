@@ -26,8 +26,8 @@ MagicBard is a powerful and user-friendly Discord bot that allows you to enjoy m
 - /join
   Connects the bot to the voice channel if it is not already connected.
 
-- /shuffle mode:[t/f]
-  Enables or disables random playback of tracks. Set t to turn on and f to turn off.
+- /shuffle mode: [t/f]
+  Enables or disables the playback of tracks in random order. Set the value "t" to turn on and the value "f" to turn off. If you resend the "t", it will be shuffled again. When sending "f", the original is always restored
 
 - /repeat mode:[0,1,2]
   Sets the repeat mode of a track or playlist.
@@ -41,3 +41,10 @@ MagicBard is a powerful and user-friendly Discord bot that allows you to enjoy m
 3. Start enjoying the music with the /play command.
 
 MagicBard is designed to make listening to music on the Discord server simple and convenient.
+
+## Download the assembled project
+| Release Version | Download link                                                 |
+|:-------------:|:---------------------------------------------------------------:|
+| v1.1.1 Build | [Win11 x64 Release](https://github.com/F000NKKK/MagicBard---Discord-Music-Bot/releases/download/v1.1.0/MagicBard_Win11x64_build_v1.1.0.zip) |
+
+

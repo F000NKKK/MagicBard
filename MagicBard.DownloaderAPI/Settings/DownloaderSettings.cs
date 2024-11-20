@@ -1,4 +1,4 @@
-﻿namespace MagicBard.DownloaderAPI.Models;
+﻿namespace MagicBard.DownloaderAPI.Settings;
 
 public class DownloaderSettings
 {
