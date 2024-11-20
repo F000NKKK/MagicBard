@@ -23,6 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
         python -m venv venv  # Создаем виртуальное окружение
         source venv/bin/activate  # Активируем виртуальное окружение
         pip install --upgrade pip  # Обновляем pip
@@ -30,10 +31,12 @@ jobs:
 
     - name: Check if Python is working
       run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
         source venv/bin/activate  # Активируем виртуальное окружение
         python -c "print('Python is working successfully!')"  # Проверка работы Python
 
     - name: Check if project is running without errors
       run: |
+        cd MagicBard.DiscordBot  # Переходим в нужную директорию
         source venv/bin/activate  # Активируем виртуальное окружение
         python -c "print('Project is running successfully!')"  # Дополнительная проверка
