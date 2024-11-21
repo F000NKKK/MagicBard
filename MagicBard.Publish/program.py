@@ -3,6 +3,7 @@ import sys
 import logging
 from bard_discord_bot import BardDiscordBot
 from bard_config_loader import ConfigLoader
+from pathlib import Path
 
 class Application:
     def __init__(self, logger):
@@ -12,7 +13,7 @@ class Application:
             self.logger.info("Application initialization started.")
 
             # Load configuration
-            self.config_loader = ConfigLoader("appsettings.json", self.logger)
+            self.config_loader = ConfigLoader(get_config_path(), self.logger)
             self.logger.info("Configuration successfully loaded.")
 
             # Validate required configuration parameters
@@ -84,21 +85,32 @@ def setup_logger():
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
         handlers=[
-            logging.FileHandler(log_file),
+            logging.FileHandler(log_file, encoding="utf-8"),
             logging.StreamHandler(sys.stdout)
         ]
     )
     logger = logging.getLogger("MagicBardBotLogger")
     return logger
 
+def setup_working_directory():
+    program_path = Path(__file__).parent.resolve()
+    os.chdir(program_path)
+    logging.info("Working directory set to '%s'.", program_path)
+
+def get_config_path():
+    config_path = Path("appsettings.json")
+    if not config_path.exists():
+        # Путь по умолчанию, например, в папке пользователя
+        config_path = Path.home() / ".config" / "MagicBardBot" / "appsettings.json"
+    if not config_path.exists():
+        raise FileNotFoundError("Configuration file 'appsettings.json' not found.")
+    return str(config_path)
+
 if __name__ == "__main__":
     try:
         logger = setup_logger()
         # Set the working directory to the folder containing the script
-        program_path = os.path.dirname(os.path.abspath(__file__))
-        os.chdir(program_path)
-
-        logging.info("Working directory set to '%s'.", program_path)
+        setup_working_directory()
 
         # Initialize and start the application
         app = Application(logger)
